@@ -35,6 +35,16 @@ a{
     margin: 0px 11px;
     font-size: 18px;
 }
+/*Button-up*/
+.but-up{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 2;
+    right: 5%;
+    bottom: 5%;
+}
 /*Main*/
 /*homePage*/
 .Home{
@@ -47,7 +57,7 @@ a{
     width: 40%;
 }
 .title-big{
-    font-size: 60px;
+    font-size: 55px;
     color: #211F54;
 }
 .title-middle{
@@ -139,9 +149,8 @@ th{
     padding: 10px;
 }
 tr{
-    
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 }
 td{
@@ -195,7 +204,7 @@ footer a{
 @media (max-width: 480px) {
     /*Navigation*/
     .navigation-link{
-        font-size: 17px;
+        font-size: 16px;
         margin: 0px 5px;
     }
     /*header*/
