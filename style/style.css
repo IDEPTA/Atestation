@@ -126,7 +126,9 @@ html{
     margin: 100px 0px;
 }
 table{
+    background-color: #F7F9FC;
     margin: auto;
+    cursor: pointer;
 }
 th{
     background-color: #68abf8;
@@ -134,12 +136,12 @@ th{
     padding: 10px;
 }
 tr{
+    border: none;
     font-size: 20px;
     text-align: center;
 }
 td{
     padding: 10px;
-    border: 1px solid #EFF0F6;
 }
 /*Contact*/
 .Contact{
@@ -190,6 +192,7 @@ footer a{
     /*Navigation*/
     .navigation-link{
         font-size: 17px;
+        margin: 0px 5px;
     }
     /*header*/
     .head h3{
