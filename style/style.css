@@ -202,6 +202,9 @@ footer a{
     font-size: 18px;
 }
 @media (max-width: 480px) {
+    *{
+        overflow-x: hidden;
+    }
     /*Navigation*/
     .navigation-link{
         font-size: 16px;
@@ -211,6 +214,7 @@ footer a{
     .head h3{
         display: none;
     }
+    
     /*Home*/
     .text-block{
         width: 100%;
