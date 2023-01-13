@@ -3,12 +3,16 @@
     src: url("../fonts/Roboto-Regular.ttf") format("truetype"); 
 }
 *{
+    cursor: url("../img/cursordef.png"),default;
     padding: 0px;
     margin: 0px;
     font-family: 'Roboto';
 }
 html{
     scroll-behavior: smooth;
+}
+a{
+    cursor: url("../img/point.png"),pointer;
 }
 /*header*/
 .head{
@@ -67,7 +71,7 @@ html{
     font-size: 18px;
     background-color: #0075FF;
     padding: 20px 30px;
-    cursor: pointer;
+    cursor: url("../img/point.png"),pointer;
     transition: 0.4s;
 }
 .button:hover{
@@ -118,7 +122,7 @@ html{
     left: 5px;
 }
 .play{
-    cursor: pointer;
+    cursor: url("../img/point.png"),pointer;
     width: 30px;
 }
 /*Price*/
@@ -128,7 +132,6 @@ html{
 table{
     background-color: #F7F9FC;
     margin: auto;
-    cursor: pointer;
 }
 th{
     background-color: #68abf8;
@@ -136,6 +139,7 @@ th{
     padding: 10px;
 }
 tr{
+    
     border: none;
     font-size: 20px;
     text-align: center;
